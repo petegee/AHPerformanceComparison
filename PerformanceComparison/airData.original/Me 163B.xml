@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.11" productVersion="11.0.6357" PIVersion="1.0.0.0" href="http://www.my2cents.co.nz/AcesHigh.xsn" name="urn:schemas-microsoft-com:office:infopath:AcesHigh:" language="en-au" ?><?mso-application progid="InfoPath.Document"?><aircraft xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-01-11T22:04:29" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<details>
+		<type>Me 163B</type>
+		<fuel unit="">0</fuel>
+	</details>
+	<performance>
+
+    <turn>
+      <turnData flapPosition="none">
+        <radius>0</radius>
+        <degPerSec>0</degPerSec>
+        <speed>0</speed>
+        <time>0</time>
+      </turnData>
+      <turnData flapPosition="full">
+        <radius>0</radius>
+        <degPerSec>0</degPerSec>
+        <speed>0</speed>
+        <time>0</time>
+      </turnData>
+    </turn>
+	</performance>
+</aircraft>

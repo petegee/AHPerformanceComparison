@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aircraft xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\ChrisWork\sourceRoot\Project\Other\PerformanceComparison\schemas\aircraft.xsd">
+	<details>
+		<type>Bf 1096-6</type>
+		<fuel unit="gallon">106</fuel>
+	</details>
+	<performance>
+		<speed wep="off" altUnit="feet" tasUnit="mph">
+			<smeasure>
+				<altitude>0</altitude>
+				<tas>315</tas>
+			</smeasure>
+			<smeasure>
+				<altitude>6000</altitude>
+				<tas>355</tas>
+			</smeasure>
+			<smeasure>
+				<altitude>23500</altitude>
+				<tas>385</tas>
+			</smeasure>
+			<smeasure>
+				<altitude>30000</altitude>
+				<tas>360</tas>
+			</smeasure>
+		</speed>
+		<speed wep="on" altUnit="feet" tasUnit="mph">
+			<smeasure>
+				<altitude>0</altitude>
+				<tas>332</tas>
+			</smeasure>
+			<smeasure>
+				<altitude>5000</altitude>
+				<tas>365</tas>
+			</smeasure>
+			<smeasure>
+				<altitude>21500</altitude>
+				<tas>395</tas>
+			</smeasure>
+			<smeasure>
+				<altitude>30000</altitude>
+				<tas>365</tas>
+			</smeasure>
+		</speed>
+		<climb wep="off" altUnit="feet" rateUnit="fpm">
+			<cmeasure>
+				<altitude>0</altitude>
+				<rate>3450</rate>
+			</cmeasure>
+			<cmeasure>
+				<altitude>5200</altitude>
+				<rate>3600</rate>
+			</cmeasure>
+			<cmeasure>
+				<altitude>20000</altitude>
+				<rate>2600</rate>
+			</cmeasure>
+			<cmeasure>
+				<altitude>30000</altitude>
+				<rate>1450</rate>
+			</cmeasure>
+		</climb>
+		<climb wep="on" altUnit="feet" rateUnit="fpm">
+			<cmeasure>
+				<altitude>0</altitude>
+				<rate>4000</rate>
+			</cmeasure>
+			<cmeasure>
+				<altitude>4800</altitude>
+				<rate>4400</rate>
+			</cmeasure>
+			<cmeasure>
+				<altitude>20000</altitude>
+				<rate>2950</rate>
+			</cmeasure>
+			<cmeasure>
+				<altitude>30000</altitude>
+				<rate>1500</rate>
+			</cmeasure>
+		</climb>
+    <turn>
+      <turnData flapPosition="none">
+        <radius>197.48</radius>
+        <degPerSec>19.60</degPerSec>
+        <speed>152.00</speed>
+        <time>18.33</time>
+      </turnData>
+      <turnData flapPosition="full">
+        <radius>146.55</radius>
+        <degPerSec>19.70</degPerSec>
+        <speed>113.00</speed>
+        <time>18.3</time>
+      </turnData>
+    </turn>
+	</performance>
+</aircraft>

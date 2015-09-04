@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.11" PIVersion="1.0.0.0" href="http://www.my2cents.co.nz/AcesHigh.xsn" name="urn:schemas-microsoft-com:office:infopath:AcesHigh:" language="en-au" productVersion="11.0.8034" ?><?mso-application progid="InfoPath.Document"?><aircraft xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-01-11T22:04:29" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<details>
+		<type>Spit I</type>
+		<fuel unit="">0</fuel>
+	</details>
+	<performance>
+		<speed wep="off" altUnit="feet" tasUnit="mph" altFactor="94.044" tasFactor="0.66" altOffset="0" tasOffset="250">
+			<smeasure>
+				<altitude>0</altitude>
+				<tas>51</tas>
+			</smeasure>
+		<smeasure>
+									<altitude>10</altitude>
+									<tas>60</tas>
+								</smeasure><smeasure>
+									<altitude>200</altitude>
+									<tas>167</tas>
+								</smeasure><smeasure>
+									<altitude>204</altitude>
+									<tas>167</tas>
+								</smeasure><smeasure>
+									<altitude>234</altitude>
+									<tas>156</tas>
+								</smeasure><smeasure>
+									<altitude>264</altitude>
+									<tas>137</tas>
+								</smeasure><smeasure>
+									<altitude>300</altitude>
+									<tas>118</tas>
+								</smeasure><smeasure>
+									<altitude>319</altitude>
+									<tas>105</tas>
+								</smeasure></speed>
+		<speed wep="on" altUnit="feet" tasUnit="mph" altFactor="94.044" tasFactor="0.66" altOffset="0" tasOffset="250">
+									<smeasure>
+										<altitude>0</altitude>
+										<tas>62</tas>
+									</smeasure>
+								<smeasure>
+									<altitude>10</altitude>
+									<tas>71</tas>
+								</smeasure><smeasure>
+									<altitude>191</altitude>
+									<tas>173</tas>
+								</smeasure><smeasure>
+									<altitude>202</altitude>
+									<tas>167</tas>
+								</smeasure><smeasure>
+									<altitude>204</altitude>
+									<tas>167</tas>
+								</smeasure><smeasure>
+									<altitude>234</altitude>
+									<tas>156</tas>
+								</smeasure><smeasure>
+									<altitude>264</altitude>
+									<tas>137</tas>
+								</smeasure><smeasure>
+									<altitude>300</altitude>
+									<tas>118</tas>
+								</smeasure><smeasure>
+									<altitude>319</altitude>
+									<tas>105</tas>
+								</smeasure></speed><climb wep="off" altUnit="feet" rateUnit="fps" altFactor="92.593" rateFactor="15.564" altOffset="0" rateOffset="0">
+			<cmeasure>
+				<altitude>0</altitude>
+				<rate>170</rate>
+			</cmeasure>
+		<cmeasure>
+									<altitude>31</altitude>
+									<rate>171</rate>
+								</cmeasure><cmeasure>
+									<altitude>47</altitude>
+									<rate>175</rate>
+								</cmeasure><cmeasure>
+									<altitude>108</altitude>
+									<rate>177</rate>
+								</cmeasure><cmeasure>
+									<altitude>324</altitude>
+									<rate>22</rate>
+								</cmeasure></climb>
+		<climb wep="on" altUnit="feet" rateUnit="fps" altFactor="92.593" rateFactor="15.564" altOffset="0" rateOffset="0">
+									<cmeasure>
+										<altitude>0</altitude>
+										<rate>190</rate>
+									</cmeasure>
+								<cmeasure>
+									<altitude>73</altitude>
+									<rate>193</rate>
+								</cmeasure><cmeasure>
+									<altitude>87</altitude>
+									<rate>196</rate>
+								</cmeasure><cmeasure>
+									<altitude>108</altitude>
+									<rate>177</rate>
+								</cmeasure><cmeasure>
+									<altitude>324</altitude>
+									<rate>22</rate>
+								</cmeasure>
+    </climb>
+    <turn>
+      <turnData flapPosition="none">
+        <radius>143.41</radius>
+        <degPerSec>24.50</degPerSec>
+        <speed>138.00</speed>
+        <time>14.66</time>
+      </turnData>
+      <turnData flapPosition="full">
+        <radius>113.02</radius>
+        <degPerSec>21.20</degPerSec>
+        <speed>94.00</speed>
+        <time>16.96</time>
+      </turnData>
+    </turn>
+	</performance>
+</aircraft>

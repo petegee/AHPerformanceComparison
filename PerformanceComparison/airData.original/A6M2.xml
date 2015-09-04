@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.11" PIVersion="1.0.0.0" href="http://www.my2cents.co.nz/AcesHigh.xsn" name="urn:schemas-microsoft-com:office:infopath:AcesHigh:" language="en-gb" productVersion="11.0.6565" ?><?mso-application progid="InfoPath.Document"?><aircraft xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-01-11T22:04:29" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<details>
+		<type>A6M2</type>
+		<fuel unit="Gallons">0</fuel>
+	</details>
+	<performance>
+		<speed wep="off" altUnit="feet" tasUnit="mph" altFactor="85.23" tasFactor="0.361" altOffset="0" tasOffset="250">
+			<smeasure>
+				<altitude>0</altitude>
+				<tas>53</tas>
+			</smeasure>
+		<smeasure>
+									<altitude>175</altitude>
+									<tas>220</tas>
+								</smeasure><smeasure>
+									<altitude>213</altitude>
+									<tas>211</tas>
+								</smeasure><smeasure>
+									<altitude>237</altitude>
+									<tas>199</tas>
+								</smeasure><smeasure>
+									<altitude>250</altitude>
+									<tas>194</tas>
+								</smeasure><smeasure>
+									<altitude>261</altitude>
+									<tas>191</tas>
+								</smeasure><smeasure>
+									<altitude>276</altitude>
+									<tas>185</tas>
+								</smeasure><smeasure>
+									<altitude>295</altitude>
+									<tas>181</tas>
+								</smeasure><smeasure>
+									<altitude>330</altitude>
+									<tas>163</tas>
+								</smeasure><smeasure>
+									<altitude>352</altitude>
+									<tas>154</tas>
+								</smeasure></speed>
+		<climb wep="off" altUnit="feet" rateUnit="fps" altFactor="83.57" rateFactor="11.152" altOffset="0" rateOffset="500">
+			<cmeasure>
+				<altitude>0</altitude>
+				<rate>206</rate>
+			</cmeasure>
+		<cmeasure>
+									<altitude>180</altitude>
+									<rate>171</rate>
+								</cmeasure><cmeasure>
+									<altitude>359</altitude>
+									<rate>31</rate>
+		</cmeasure></climb>
+    <turn>
+      <turnData flapPosition="none">
+        <radius>115.15</radius>
+        <degPerSec>27.70</degPerSec>
+        <speed>125.00</speed>
+        <time>13.00</time>
+      </turnData>
+      <turnData flapPosition="full">
+        <radius>96.93</radius>
+        <degPerSec>25.00</degPerSec>
+        <speed>95.00</speed>
+        <time>14.4</time>
+      </turnData>
+    </turn>
+  </performance>
+</aircraft>

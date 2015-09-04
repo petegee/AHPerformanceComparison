@@ -1,0 +1,63 @@
+*******************************************************************************
+** Aces High II Aircraft Performance Comparison Application
+** By Spatula & Ladle of "Airborne Kitchen Utensil Assualt Group" (A.K.U.A.G.)
+** Copyright 2006 & 2009 A.K.U.A.G./Major.Geek
+**
+** Spatula Email: taurineman@lycos.com
+**
+** Speed and climb data extracted from HTC's published speed and climb data on their website.
+** Turn data from Mosq’s Revised Sustained Turn List v2.07 5-20-2006. Turn data for
+** F4u-1a, I-16, P-47M, B-239 turn performance testing performed by Spatula Sept/Oct 2009.
+** Extended turn data calculated and extracted using Badboy's 'Bootstrap Calculator' ver 2.
+**
+** Redistribution of this application is **NOT** permitted. 
+** Anyone else wanting a copy of this application can download it for free from
+** http://www.major.geek.nz/AKUAG/Resources.aspx
+**
+** The author takes no responsibility for the use of this application or its
+** constituant parts, nor makes any claim to the accuracy of the data herein.
+**
+**
+** Release Notes:
+**
+*******************************************************************************
+
+
+
+Version 2.0.0.2 (Released 1st November 2009)
+============================================
+1. Changed the application to seperate out Speed, Climb, and Turn data on to 
+   seperate tabs.
+2. Created a custom user control for a custom view of aircraft turn performance.
+3. Changed the format of the XML data files. Added Instantaneous turn performance 
+   data, stall speed, and corner velocities. Removed old metrics.
+4. Changed the way colours are assigned to aircraft lines on graphs so that
+   an selected aircraft does not suddenly change colour when selecting an 
+   aircraft that comes before it in the list. Once an aircraft is shown, it
+   keeps its colour untill it is de-selected.
+5. Changed the ordering of colour assignments. 
+6. Added the B-239 Brewster Buffalo (turn testing performed by me).
+7. Added the I-16 Polikarpov (turn testing performed by me).
+8. Added turn information for the F4u-1A Corsair (turn testing performed by me).
+7. Added the P-47M Thunderbolt (turn testing performed by me).
+9. Removed the Me-163 as no data exists for it and it's extremely hard to test 
+   in practice...
+10. Fixed the spelling mistake in the windows title.
+
+
+
+Version 1.2.0.0
+===============
+1. Replaced Kweassa's turn raduis data with Mosq's turn data including 
+   turn radius, rate, deg/sec, sustained speed. 
+2. Added 3 new turn plots in the turn data section to reflect the three
+   new data added (rate, deg/sec, sustained speed).
+3. Changed the format of the XML data files to accomodate the new turn 
+   data. All XML files updated with MOSQs data.
+4. Fixed a bug with the CheckedListBox if you double-click a single checkbox
+5. Fixed a bug in the climb graph where the line plot re-paints itself wrong
+   when you float the cursor over it. This also fixes the double-ups you may 
+   have seen in the legend when you minimize/maximize the app or open a window
+   over it then bring it to the top again.
+6. Started and added the releasenotes.txt file to the distribution.
+   
