@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Windows.Forms;
 
 namespace PerformanceComparison
@@ -12,6 +12,7 @@ namespace PerformanceComparison
         static void Main()
         {
             Application.EnableVisualStyles();
+            Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.Run(new MainForm());
         }
     }
